@@ -1,9 +1,7 @@
 ﻿using Castle.Facilities.AspNetCore;
 using Castle.MicroKernel.Registration;
 using Castle.Windsor;
-using WindsorDependancyInjectionFrameworks.Class;
 using WindsorDependancyInjectionFrameworks.Controllers;
-using WindsorDependancyInjectionFrameworks.Interface;
 using Microsoft.AspNetCore.Builder;
 using Microsoft.AspNetCore.Hosting;
 using Microsoft.AspNetCore.Http;
@@ -12,6 +10,8 @@ using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Logging;
 using System;
 using System.Threading.Tasks;
+using HelloWorld.Class;
+using HelloWorld.Interface;
 
 namespace WindsorDependancyInjectionFrameworks
 {
@@ -76,8 +76,8 @@ namespace WindsorDependancyInjectionFrameworks
         private void RegisterApplicationComponents(IServiceCollection services)
         {
             // Application components
-            Container.Register(Component.For<IHttpContextAccessor>().ImplementedBy<HttpContextAccessor>());
-            Container.Register(Component.For<IHelloWorld>().ImplementedBy<HelloWorld>());
+           // Container.Register(Component.For<IHttpContextAccessor>().ImplementedBy<HttpContextAccessor>());
+            Container.Register(Component.For<IHelloWorld>().ImplementedBy<Speak>());
         }
     }
     public class FrameworkMiddleware : IMiddleware

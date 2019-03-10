@@ -2,7 +2,9 @@
 using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
+using HelloWorld.Interface;
 using Microsoft.AspNetCore.Mvc;
+using Ninject;
 
 namespace NinjetDependancyInjectionFramework.Controllers
 {
@@ -10,11 +12,17 @@ namespace NinjetDependancyInjectionFramework.Controllers
     [ApiController]
     public class ValuesController : ControllerBase
     {
-        // GET api/values
-        [HttpGet]
-        public ActionResult<IEnumerable<string>> Get()
+        private IHelloWorld HelloWorld;
+        public ValuesController(IHelloWorld _helloWorld)
         {
-            return new string[] { "value1", "value2" };
+            HelloWorld = _helloWorld;
+        }
+        //// GET api/values
+        [HttpGet]
+        public ActionResult<string> Get()
+        {
+            // return "Not Working";
+            return $"Ninject says {HelloWorld.SayHello()}";
         }
 
         // GET api/values/5

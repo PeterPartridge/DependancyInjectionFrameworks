@@ -4,9 +4,9 @@ using System.Linq;
 using System.Threading.Tasks;
 using Castle.MicroKernel;
 using Castle.Windsor;
-using WindsorDependancyInjectionFrameworks.Class;
-using WindsorDependancyInjectionFrameworks.Interface;
+
 using Microsoft.AspNetCore.Mvc;
+using HelloWorld.Interface;
 
 namespace WindsorDependancyInjectionFrameworks.Controllers
 {
@@ -14,17 +14,17 @@ namespace WindsorDependancyInjectionFrameworks.Controllers
     [ApiController]
     public class ValuesController : ControllerBase
     {
-        private IKernel _container;
-        public ValuesController(IKernel container)
+        private IHelloWorld helloWorld;
+        public ValuesController(IHelloWorld _helloWorld)
         {
-            _container = container;
+            helloWorld = _helloWorld;
         }
         //// GET api/values
         [HttpGet]
         public ActionResult<string> Get()
         {
-           // return "Not Working";
-            return _container.Resolve<IHelloWorld>().SayHello();
+            // return "Not Working";
+            return $"Windsor says {helloWorld.SayHello()}";
         }
 
         // GET api/values/5
