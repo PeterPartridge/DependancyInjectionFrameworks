@@ -1,0 +1,14 @@
+C:\Users\PeterPlay\Source\Repos\DependancyInjectionFrameworks\DependancyInjectionFrameworks\bin\Debug\netcoreapp2.1\DependancyInjectionFrameworks.deps.json
+C:\Users\PeterPlay\Source\Repos\DependancyInjectionFrameworks\DependancyInjectionFrameworks\bin\Debug\netcoreapp2.1\DependancyInjectionFrameworks.runtimeconfig.json
+C:\Users\PeterPlay\Source\Repos\DependancyInjectionFrameworks\DependancyInjectionFrameworks\bin\Debug\netcoreapp2.1\DependancyInjectionFrameworks.runtimeconfig.dev.json
+C:\Users\PeterPlay\Source\Repos\DependancyInjectionFrameworks\DependancyInjectionFrameworks\bin\Debug\netcoreapp2.1\DependancyInjectionFrameworks.dll
+C:\Users\PeterPlay\Source\Repos\DependancyInjectionFrameworks\DependancyInjectionFrameworks\bin\Debug\netcoreapp2.1\DependancyInjectionFrameworks.pdb
+C:\Users\PeterPlay\Source\Repos\DependancyInjectionFrameworks\DependancyInjectionFrameworks\obj\Debug\netcoreapp2.1\DependancyInjectionFrameworks.csprojAssemblyReference.cache
+C:\Users\PeterPlay\Source\Repos\DependancyInjectionFrameworks\DependancyInjectionFrameworks\obj\Debug\netcoreapp2.1\DependancyInjectionFrameworks.csproj.CoreCompileInputs.cache
+C:\Users\PeterPlay\Source\Repos\DependancyInjectionFrameworks\DependancyInjectionFrameworks\obj\Debug\netcoreapp2.1\DependancyInjectionFrameworks.RazorAssemblyInfo.cache
+C:\Users\PeterPlay\Source\Repos\DependancyInjectionFrameworks\DependancyInjectionFrameworks\obj\Debug\netcoreapp2.1\DependancyInjectionFrameworks.RazorAssemblyInfo.cs
+C:\Users\PeterPlay\Source\Repos\DependancyInjectionFrameworks\DependancyInjectionFrameworks\obj\Debug\netcoreapp2.1\DependancyInjectionFrameworks.AssemblyInfoInputs.cache
+C:\Users\PeterPlay\Source\Repos\DependancyInjectionFrameworks\DependancyInjectionFrameworks\obj\Debug\netcoreapp2.1\DependancyInjectionFrameworks.AssemblyInfo.cs
+C:\Users\PeterPlay\Source\Repos\DependancyInjectionFrameworks\DependancyInjectionFrameworks\obj\Debug\netcoreapp2.1\DependancyInjectionFrameworks.RazorTargetAssemblyInfo.cache
+C:\Users\PeterPlay\Source\Repos\DependancyInjectionFrameworks\DependancyInjectionFrameworks\obj\Debug\netcoreapp2.1\DependancyInjectionFrameworks.dll
+C:\Users\PeterPlay\Source\Repos\DependancyInjectionFrameworks\DependancyInjectionFrameworks\obj\Debug\netcoreapp2.1\DependancyInjectionFrameworks.pdb
